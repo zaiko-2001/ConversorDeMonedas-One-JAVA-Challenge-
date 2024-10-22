@@ -1,0 +1,52 @@
+### Java ###
+# Archivos compilados de Java
+*.class
+
+# Directorios de salida del compilador
+/bin/
+/out/
+target/
+build/
+
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Archivos temporales y de logs ###
+*.log
+
+# Archivos de dependencias de Maven
+.m2/
+
+# Ignorar archivos temporales de sistemas operativos
+*.swp
+Thumbs.db
+
+### Archivos de configuración específicos del entorno de desarrollo ###
+.idea/
